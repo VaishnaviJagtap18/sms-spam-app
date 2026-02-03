@@ -22,7 +22,7 @@ sms-spam-app/
 └── README.md
 ```
 
-## 🧠 How it Works
+##  How it Works
 1. SMS text is cleaned and preprocessed
 2. Text is converted into numerical features using a vectorizer
 3. A supervised ML classifier predicts spam or ham
@@ -37,17 +37,21 @@ sms-spam-app/
 - NLP (Text Vectorization)
 ---
 
-## ▶️ How to Run Locally
-```bash
+##  How to Run Locally
+```
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 📌 Future Improvements
 
+```
 -Add model evaluation metrics
 -Try different ML algorithms
 -Improve text preprocessing
+
+```
+
 
 
 
