@@ -1,5 +1,9 @@
+# Streamlit app for SMS spam classification
+
 import streamlit as st
 import pickle
+
+# Load trained model and vectorizer
 
 model = pickle.load(open("model.pkl", 'rb'))
 cv = pickle.load(open("vectorizer.pkl", 'rb'))
