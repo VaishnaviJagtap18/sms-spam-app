@@ -10,6 +10,7 @@ https://message-spam-detection.streamlit.app/
 ---
 ## 📂 Project Structure 
 
+```
 sms-spam-app/
 │
 ├── sms_spam_model_training.ipynb   # Model training & preprocessing
@@ -19,7 +20,7 @@ sms-spam-app/
 ├── vectorizer.pkl                  # Text vectorizer
 ├── requirements.txt                # Dependencies
 └── README.md
----
+```
 
 ## 🧠 How it Works
 1. SMS text is cleaned and preprocessed
@@ -40,13 +41,14 @@ sms-spam-app/
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
----
+```
 
 📌 Future Improvements
 
 -Add model evaluation metrics
 -Try different ML algorithms
 -Improve text preprocessing
+```
 
 
 
