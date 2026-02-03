@@ -48,7 +48,8 @@ streamlit run app.py
 -Add model evaluation metrics
 -Try different ML algorithms
 -Improve text preprocessing
-```
+
+
 
 
 
