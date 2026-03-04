@@ -12,11 +12,11 @@ model = pickle.load(open("model.pkl", 'rb'))
 cv = pickle.load(open("vectorizer.pkl", 'rb'))
 
 # App title and description
-st.title("Email Spam Classification application")
-st.write("This is a Machine Learning application to classify emails as spam or ham.")
+st.title("SMS Spam Classification application")
+st.write("This is a Machine Learning application to classify sms as spam or ham.")
 
 # User input
-user_input = st.text_area("Enter an email to classify",height=150)
+user_input = st.text_area("Enter an sms to classify",height=150)
 
 # Prediction button Logic
 if st.button("Classify"):
@@ -30,8 +30,8 @@ if st.button("Classify"):
 
         # Display result
         if result[0]==0:
-            st.write("The email is not spam")
+            st.write("The sms is not spam")
         else:
-            st.write("The email is spam")
+            st.write("The sms is spam")
     else:
-        st.write("Please type email to classify")        
+        st.write("Please type sms to classify")        
